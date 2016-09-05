@@ -1343,7 +1343,7 @@
 
         var page = this;
 
-        Dashboard.getPluginSecurityInfo().then(function (pluginSecurityInfo) {
+      /*  Dashboard.getPluginSecurityInfo().then(function (pluginSecurityInfo) {
 
             if (!page.querySelector('.customSupporterPromotion')) {
 
@@ -1356,7 +1356,7 @@
                     page.querySelector('.content-primary').insertAdjacentHTML('afterbegin', html);
                 }
             }
-        });
+        }); */
 
     });
 });
