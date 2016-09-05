@@ -27,20 +27,20 @@
                 <p class="artist"></p>
                 <p class="itemGenres"></p>
                 <div class="detailButtonsContainer">
-                    <button is="emby-button" type="button" class="raised subdued btnPlayTrailer hide"><i class="md-icon">play_arrow</i><span>${ButtonTrailer}</span></button>
+                    <!-- Hide Buttons  <button is="emby-button" type="button" class="raised subdued btnPlayTrailer hide"><i class="md-icon">play_arrow</i><span>${ButtonTrailer}</span></button>
                     <a class="btnPlayExternalTrailer hide clearLink" href="#" target="_blank"><button is="emby-button" type="button" class="raised subdued"><i class="md-icon">play_arrow</i><span>${ButtonTrailer}</span></button></a>
                     <button is="emby-button" type="button" class="raised subdued btnRecord hide"><i class="md-icon">videocam</i><span>${ButtonRecord}</span></button>
                     <button is="emby-button" type="button" class="raised subdued hide btnCancelRecording"><i class="md-icon">delete</i><span>${ButtonCancelRecording}</span></button>
-                    <button is="emby-button" type="button" class="raised subdued btnSync hide"><i class="md-icon">sync</i><span>${ButtonSync}</span></button>
+                    <button is="emby-button" type="button" class="raised subdued btnSync hide"><i class="md-icon">sync</i><span>${ButtonSync}</span></button> -->
                     <button is="emby-button" type="button" class="raised subdued btnMoreCommands hide notext"><i class="md-icon">more_vert</i></button>
                     <div class="detailUserDataIcons userDataIcons"></div>
                 </div>
-                <div class="syncLocalContainer hide" style="margin-top:1em; display: inline-flex; padding: 0 .5em;">
+                  <!--  <div class="syncLocalContainer hide" style="margin-top:1em; display: inline-flex; padding: 0 .5em;">
                     <label class="checkboxContainer" style="margin:0;">
                         <input type="checkbox" is="emby-checkbox" class="chkOffline" />
                         <span>${MakeAvailableOffline}</span>
                     </label>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -175,8 +175,8 @@
                 </h1>
                 <div id="themeSongsContent" is="emby-itemscontainer"></div>
             </div>
-            <div class="detailSection detailsSection">
-                <h1>
+          <div class="detailSection detailsSection">
+                 <h1>
                     ${HeaderDetails}
                 </h1>
                 <div>
@@ -197,13 +197,13 @@
                 <div id="themeVideosContent" is="emby-itemscontainer" class="itemsContainer vertical-wrap"></div>
             </div>
 
-            <div class="detailSection audioVideoMediaInfo hide">
-                <h1>${HeaderMediaInfo}</h1>
+          <div class="detailSection audioVideoMediaInfo hide">
+                 <h1>${HeaderMediaInfo}</h1>
                 <div>
                     <div class="splitVersionContainer" style="border-bottom: 1px solid #444;padding:1em 0;">
                         <button is="emby-button" type="button" class="raised btnSplitVersions subdued">${ButtonSplitVersionsApart}</button>
                     </div>
-                    <div id="mediaInfoContent" class="mediaInfoContent"></div>
+                   <div id="mediaInfoContent" class="mediaInfoContent"></div>
                 </div>
             </div>
         </div>
