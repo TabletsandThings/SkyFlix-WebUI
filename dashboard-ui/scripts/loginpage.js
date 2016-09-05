@@ -237,18 +237,18 @@
             return false;
         });
 
-        view.querySelector('.btnForgotPassword').addEventListener('click', function () {
+      /*  view.querySelector('.btnForgotPassword').addEventListener('click', function () {
             Dashboard.navigate('forgotpassword.html');
-        });
+        }); */
 
         view.querySelector('.btnCancel').addEventListener('click', function () {
             LoginPage.showVisualForm(view);
         });
 
-        view.querySelector('.btnManual').addEventListener('click', function () {
+      /*  view.querySelector('.btnManual').addEventListener('click', function () {
             view.querySelector('#txtManualName').value = '';
             showManualForm(view, true);
-        });
+        }); */
 
         view.addEventListener('viewshow', function (e) {
             Dashboard.showLoadingMsg();
