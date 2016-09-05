@@ -3,14 +3,14 @@
     <div is="emby-tabs" class="libraryViewNav">
         <div class="emby-tabs-slider">
             <button is="emby-button" class="emby-tab-button emby-tab-button-active" data-index="0">
-                <div class="emby-button-foreground">${TabSuggestions}</div>
+                <div class="emby-button-foreground">${TabLatest}</div>
             </button>
             <button is="emby-button" class="emby-tab-button" data-index="1">
                 <div class="emby-button-foreground">${TabMovies}</div>
             </button>
-            <button is="emby-button" class="emby-tab-button homeFavoritesTab" data-index="2">
+          <!--  <button is="emby-button" class="emby-tab-button homeFavoritesTab" data-index="2">
                 <div class="emby-button-foreground">${TabTrailers}</div>
-            </button>
+            </button> -->
             <button is="emby-button" class="emby-tab-button" data-index="3">
                 <div class="emby-button-foreground">${TabCollections}</div>
             </button>
@@ -23,26 +23,26 @@
         </div>
     </div>
     <div class="is-active pageTabContent ehsContent" id="suggestionsTab" data-index="0">
-        <div id="resumableSection" class="homePageSection hide">
+         <div id="resumableSection" class="homePageSection hide">
             <div>
-                <h1 class="listHeader" style="display:inline-block;vertical-align:middle;">${HeaderResume}</h1>
-                <button is="emby-button" type="button" class="raised submit mini categorySyncButton" data-category="Resume">
+                <!-- Hide Resume <h1 class="listHeader" style="display:inline-block;vertical-align:middle;">${HeaderResume}</h1>
+                 <!-- Hide Sync Button <button is="emby-button" type="button" class="raised submit mini categorySyncButton" data-category="Resume">
                     <i class="md-icon">sync</i>
                     <span>${ButtonSync}</span>
-                </button>
+                </button> -->
             </div>
 
-            <div is="emby-itemscontainer" id="resumableItems" class="itemsContainer">
-            </div>
+            <!-- <div is="emby-itemscontainer" id="resumableItems" class="itemsContainer">
+            </div> -->
         </div>
 
         <div class="homePageSection">
             <div>
                 <h1 class="listHeader" style="display:inline-block;vertical-align:middle;">${HeaderLatestMovies}</h1>
-                <button is="emby-button" type="button" class="raised submit mini categorySyncButton" data-category="Latest">
+                <!-- <button is="emby-button" type="button" class="raised submit mini categorySyncButton" data-category="Latest">
                     <i class="md-icon">sync</i>
                     <span>${ButtonSync}</span>
-                </button>
+                </button> -->
             </div>
 
             <div is="emby-itemscontainer" id="recentlyAddedItems" class="itemsContainer">
