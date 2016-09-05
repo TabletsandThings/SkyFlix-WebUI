@@ -327,9 +327,9 @@
             loadTab(view, parseInt(e.detail.selectedTabIndex));
         });
 
-        view.querySelector('.btnTakeTour').addEventListener('click', function () {
+        /* view.querySelector('.btnTakeTour').addEventListener('click', function () {
             takeTour(view, Dashboard.getCurrentUserId());
-        });
+        }); */
 
         if (AppInfo.enableHomeTabs) {
             view.classList.remove('noSecondaryNavPage');
