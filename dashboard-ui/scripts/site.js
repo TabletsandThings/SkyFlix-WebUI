@@ -473,12 +473,12 @@ var Dashboard = {
             href: "userprofiles.html",
             pageIds: ['userProfilesPage', 'newUserPage', 'editUserPage', 'userLibraryAccessPage', 'userParentalControlPage', 'userPasswordPage'],
             icon: 'people'
-        }, {
+        }, /* Hide Emby Premiere Tab  {
             name: 'Emby Premiere',
             href: "supporterkey.html",
             pageIds: ['supporterKeyPage'],
             icon: 'star'
-        }, {
+        }, */ {
             divider: true,
             name: Globalize.translate('TabLibrary'),
             href: "library.html",
@@ -496,50 +496,50 @@ var Dashboard = {
             href: "metadatasubtitles.html",
             pageIds: ['metadataSubtitlesPage'],
             icon: 'closed_caption'
-        }, {
+        },/* Hide Playback Tab  {
             name: Globalize.translate('TabPlayback'),
             icon: 'play_circle_filled',
             color: '#E5342E',
             href: "cinemamodeconfiguration.html",
             pageIds: ['cinemaModeConfigurationPage', 'playbackConfigurationPage', 'streamingSettingsPage', 'encodingSettingsPage']
-        }, {
+        }, */ /* Hide Sync {
             name: Globalize.translate('TabSync'),
             icon: 'sync',
             href: "syncactivity.html",
             pageIds: ['syncActivityPage', 'syncJobPage', 'devicesUploadPage', 'syncSettingsPage'],
             color: '#009688'
-        }, {
+        }, */ {
             divider: true,
             name: Globalize.translate('TabExtras')
-        }, {
+        }, /* Hide AutoOrganzie {
             name: Globalize.translate('TabAutoOrganize'),
             color: '#01C0DD',
             href: "autoorganizelog.html",
             pageIds: ['libraryFileOrganizerPage', 'libraryFileOrganizerSmartMatchPage', 'libraryFileOrganizerLogPage'],
             icon: 'folder'
-        }, {
+        }, */ {
             name: Globalize.translate('DLNA'),
             href: "dlnasettings.html",
             pageIds: ['dlnaSettingsPage', 'dlnaProfilesPage', 'dlnaProfilePage'],
             icon: 'settings'
-        }, {
+        }, /* Hide Live TV {
             name: Globalize.translate('TabLiveTV'),
             href: "livetvstatus.html",
             pageIds: ['liveTvStatusPage', 'liveTvSettingsPage', 'liveTvTunerProviderHdHomerunPage', 'liveTvTunerProviderM3UPage', 'liveTvTunerProviderSatPage'],
             icon: 'dvr'
-        }, {
+        }, */ {
             name: Globalize.translate('TabNotifications'),
             icon: 'notifications',
             color: 'brown',
             href: "notificationsettings.html",
             pageIds: ['notificationSettingsPage', 'notificationSettingPage']
-        }, {
+        }, /* Hide Plugsins {
             name: Globalize.translate('TabPlugins'),
             icon: 'add_shopping_cart',
             color: '#9D22B1',
             href: "plugins.html",
             pageIds: ['pluginsPage', 'pluginCatalogPage']
-        }, {
+        }, */  {
             divider: true,
             name: Globalize.translate('TabExpert')
         }, {
@@ -2945,4 +2945,3 @@ pageClassOn('viewshow', "page", function () {
 
     Dashboard.ensureHeader(page);
 });
-
