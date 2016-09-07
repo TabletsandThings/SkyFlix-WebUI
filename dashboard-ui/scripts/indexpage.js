@@ -223,9 +223,9 @@
 
                     loadSections(tabContent, user, result).then(function () {
 
-                        if (!AppInfo.isNativeApp) {
+                      /*  if (!AppInfo.isNativeApp) {
                             showWelcomeIfNeeded(page, result);
-                        }
+                        } */
                         Dashboard.hideLoadingMsg();
                     });
 

@@ -1260,11 +1260,11 @@
 
             var userId = Dashboard.getCurrentUserId();
 
-            apiClient.getDisplayPreferences('dashboard', userId, 'dashboard').then(function (result) {
+            //apiClient.getDisplayPreferences('dashboard', userId, 'dashboard').then(function (result) {
 
-                if (result.CustomPrefs[welcomeTourKey] == welcomeDismissValue) {
+                //if (result.CustomPrefs[welcomeTourKey] == welcomeDismissValue) {
                     $('.welcomeMessage', page).hide();
-                } else {
+              /*  } else {
 
                     var elem = $('.welcomeMessage', page).show();
 
@@ -1278,7 +1278,7 @@
                         $('.tourHeader', elem).html(Globalize.translate('HeaderWelcomeToProjectServerDashboard'));
                         $('.tourButtonText', elem).html(Globalize.translate('ButtonTakeTheTour'));
                     }
-                }
+                } */
             });
         }
 
@@ -1322,9 +1322,9 @@
 
             var apiClient = ApiClient;
 
-            if (apiClient && !AppInfo.isNativeApp) {
+          /*  if (apiClient && !AppInfo.isNativeApp) {
                 showWelcomeIfNeeded(page, apiClient);
-            }
+            } */
         }
 
         $(document).on('pageinit', "#dashboardPage", function () {
