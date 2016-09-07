@@ -151,9 +151,9 @@
 
     function showWelcomeIfNeeded(page, displayPreferences) {
 
-        if (displayPreferences.CustomPrefs[homePageTourKey] == homePageDismissValue) {
+        //if (displayPreferences.CustomPrefs[homePageTourKey] == homePageDismissValue) {
             page.querySelector('.welcomeMessage').classList.add('hide');
-        } else {
+        /* }  Hide Welcome Block else {
 
             Dashboard.hideLoadingMsg();
 
@@ -170,7 +170,7 @@
                 elem.querySelector('.tourHeader').innerHTML = Globalize.translate('HeaderWelcomeToProjectWebClient');
                 elem.querySelector('.tourButtonText').innerHTML = Globalize.translate('ButtonTakeTheTour');
             }
-        }
+        } */
     }
 
     function takeTour(page, userId) {
