@@ -12,11 +12,11 @@
             var page = this;
 
             var userId = params.userId || Dashboard.getCurrentUserId();
-
+            //Comment these out when removing from pref page
             //page.querySelector('.lnkDisplayPreferences').setAttribute('href', 'mypreferencesdisplay.html?userId=' + userId);
             page.querySelector('.lnkLanguagePreferences').setAttribute('href', 'mypreferenceslanguages.html?userId=' + userId);
             page.querySelector('.lnkHomeScreenPreferences').setAttribute('href', 'mypreferenceshome.html?userId=' + userId);
-            page.querySelector('.lnkMyProfile').setAttribute('href', 'myprofile.html?userId=' + userId);
+            //page.querySelector('.lnkMyProfile').setAttribute('href', 'myprofile.html?userId=' + userId);
             page.querySelector('.lnkSync').setAttribute('href', 'mysyncsettings.html?userId=' + userId);
             page.querySelector('.lnkCameraUpload').setAttribute('href', 'camerauploadsettings.html?userId=' + userId);
 
