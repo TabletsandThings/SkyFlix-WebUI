@@ -13,7 +13,7 @@
 
             var userId = params.userId || Dashboard.getCurrentUserId();
 
-            page.querySelector('.lnkDisplayPreferences').setAttribute('href', 'mypreferencesdisplay.html?userId=' + userId);
+            //page.querySelector('.lnkDisplayPreferences').setAttribute('href', 'mypreferencesdisplay.html?userId=' + userId);
             page.querySelector('.lnkLanguagePreferences').setAttribute('href', 'mypreferenceslanguages.html?userId=' + userId);
             page.querySelector('.lnkHomeScreenPreferences').setAttribute('href', 'mypreferenceshome.html?userId=' + userId);
             page.querySelector('.lnkMyProfile').setAttribute('href', 'myprofile.html?userId=' + userId);
