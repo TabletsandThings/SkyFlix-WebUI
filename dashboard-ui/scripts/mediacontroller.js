@@ -461,6 +461,9 @@
                 fn();
                 return;
             }
+
+            fn();
+
 /* Enable Direct Stream only
             requirejs(["registrationservices"], function (registrationServices) {
 
