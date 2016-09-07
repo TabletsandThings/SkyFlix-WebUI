@@ -216,7 +216,7 @@
     function getTheaterInfo() {
 
         var html = '';
-        html += '<div>';
+      /* Hide Theater promo  html += '<div>';
         html += '<h1>Try Emby Theater<button is="paper-icon-button-light" style="margin-left:1em;" onclick="this.parentNode.parentNode.remove();" class="autoSize"><i class="md-icon">close</i></button></h1>';
 
         var nameText = AppInfo.isNativeApp ? 'Emby Theater' : '<a href="https://emby.media/download" target="_blank">Emby Theater</a>';
@@ -227,13 +227,14 @@
         html += getCard('https://raw.githubusercontent.com/MediaBrowser/Emby.Resources/master/apps/theater3.png', 'https://emby.media/download');
         html += '</div>';
         html += '<br/>';
-        html += '</div>';
+        html += '</div>'; */
         return html;
     }
 
     function getPremiereInfo() {
 
         var html = '';
+      /* Clear try Emby Premiere
         html += '<div>';
         html += '<h1>Try Emby Premiere<button is="paper-icon-button-light" style="margin-left:1em;" onclick="this.parentNode.parentNode.remove();" class="autoSize"><i class="md-icon">close</i></button></h1>';
 
@@ -247,13 +248,13 @@
         html += getCard('https://raw.githubusercontent.com/MediaBrowser/Emby.Resources/master/apps/theater3.png', cardTarget);
         html += '</div>';
         html += '<br/>';
-        html += '</div>';
+        html += '</div>'; */
         return html;
     }
 
     function getUpgradeMobileLayoutsInfo() {
         var html = '';
-        html += '<div>';
+      /*  html += '<div>';
         html += '<h1>Unlock Improved Layouts with Emby Premiere<button is="paper-icon-button-light" style="margin-left:1em;" onclick="this.parentNode.parentNode.remove();" class="autoSize"><i class="md-icon">close</i></button></h1>';
 
         var cardTarget = AppInfo.isNativeApp ? '' : 'https://emby.media/premiere';
@@ -265,7 +266,7 @@
         html += getCard('https://raw.githubusercontent.com/MediaBrowser/Emby.Resources/master/apps/ms2.png', cardTarget, 'portraitCard');
         html += '</div>';
         html += '<br/>';
-        html += '</div>';
+        html += '</div>'; */
         return html;
     }
 
