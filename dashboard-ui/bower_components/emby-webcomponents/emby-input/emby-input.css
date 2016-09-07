@@ -38,7 +38,7 @@
 }
 
 .inputLabelFocused {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 .emby-input-selectionbar {
@@ -53,6 +53,6 @@
 }
 
 .emby-input:focus + .emby-input-selectionbar {
-    background-color: #52B54B;
+    background-color: #34AADC;
     transform: none;
 }

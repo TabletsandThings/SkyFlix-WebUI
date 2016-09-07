@@ -124,7 +124,7 @@
 }
 
 .adminDrawer .sidebarLink.selectedSidebarLink {
-    background: #52B54B !important;
+    background: #34AADC !important;
     color: #fff !important;
 }
 
@@ -180,8 +180,8 @@ paper-checkbox #checkmark {
 }
 
 .ui-body-a paper-checkbox #checkbox.checked.paper-checkbox {
-    background-color: #52B54B;
-    border-color: #52B54B;
+    background-color: #34AADC;
+    border-color: #34AADC;
 }
 
 .paperList {
@@ -806,21 +806,21 @@ a[data-role='button'], .type-interior button:not([data-role='none']):not(.clearB
 .playbackProgress::-moz-progress-bar {
     border-radius: 0;
     background-image: none;
-    background-color: #52B54B;
+    background-color: #34AADC;
 }
 
 /* Chrome */
 .playbackProgress::-webkit-progress-value {
     border-radius: 0;
     background-image: none;
-    background-color: #52B54B;
+    background-color: #34AADC;
 }
 
 /* Polyfill */
 .playbackProgress[aria-valuenow]:before {
     border-radius: 0;
     background-image: none;
-    background-color: #52B54B;
+    background-color: #34AADC;
 }
 
 @media all and (max-width: 550px) {

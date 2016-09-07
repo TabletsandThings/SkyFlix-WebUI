@@ -288,7 +288,7 @@ i.sidebarLinkIcon {
 
 .darkDrawer .sidebarLink.selectedSidebarLink, .darkDrawer .selectedMediaFolder {
     background: #252528 !important;
-    color: #52B54B !important;
+    color: #34AADC !important;
 }
 
 body:not(.dashboardDocument) .headerAppsButton {

@@ -22,12 +22,12 @@
 }
 
 .promptDialogButton {
-    color: #52B54B;
+    color: #34AADC;
     padding: 0.35em 1em;
     margin: 0;
 }
 
     .promptDialogButton:focus {
         color: #fff;
-        background-color: #52B54B;
+        background-color: #34AADC;
     }

@@ -29,8 +29,8 @@
     }
 
 .emby-tab-button-active {
-    color: #52B54B !important;
-    border-color: #52B54B;
+    color: #34AADC !important;
+    border-color: #34AADC;
 }
 
 .emby-tabs-slider {
@@ -44,7 +44,7 @@
     bottom: 0;
     height: 2px;
     z-index: 1000;
-    background: #52B54B;
+    background: #34AADC;
     width: 0;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .emby-tab-button-selection-bar-active {
-    background: #52B54B;
+    background: #34AADC;
 }
 
 .emby-tab-button-ripple-effect {

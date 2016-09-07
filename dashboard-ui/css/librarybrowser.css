@@ -379,9 +379,9 @@ span.itemCommunityRating:not(:empty) + .userDataIcons {
 }
 
 .itemDetailGalleryLink img:hover {
-    -moz-box-shadow: 0 0 20px 3px #52B54B;
-    -webkit-box-shadow: 0 0 20px 3px #52B54B;
-    box-shadow: 0 0 20px 3px #52B54B;
+    -moz-box-shadow: 0 0 20px 3px #34AADC;
+    -webkit-box-shadow: 0 0 20px 3px #34AADC;
+    box-shadow: 0 0 20px 3px #34AADC;
 }
 
 .primaryDetailsContainer {
@@ -405,7 +405,7 @@ span.itemCommunityRating:not(:empty) + .userDataIcons {
     top: -28px;
     position: absolute;
     right: 25%;
-    background-color: #52B54B !important;
+    background-color: #34AADC !important;
 }
 
 .emby-button.btnFloatingRecord {

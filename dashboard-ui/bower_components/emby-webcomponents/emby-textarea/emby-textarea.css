@@ -34,7 +34,7 @@
 }
 
 .textareaLabelFocused {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 .emby-textarea-selectionbar {
@@ -49,6 +49,6 @@
 }
 
 .emby-textarea:focus + .emby-textarea-selectionbar {
-    background-color: #52B54B;
+    background-color: #34AADC;
     transform: none;
 }

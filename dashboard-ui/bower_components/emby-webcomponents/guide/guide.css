@@ -117,7 +117,7 @@
     height: 2px;
     display: flex;
     margin-left: .65vh;
-    background-color: #52B54B;
+    background-color: #34AADC;
     height: 2px;
     transform-origin: left;
     transition: transform 500ms ease-out;
@@ -127,7 +127,7 @@
     position: absolute;
     bottom: -1.3vh;
     width: 100%;
-    color: #52B54B;
+    color: #34AADC;
     margin-left: .65vh;
     transform-origin: left;
     transition: transform 500ms ease-out;
@@ -142,7 +142,7 @@
     width: 4vh;
     height: 4vh;
     font-size: 4vh;
-    color: #52B54B;
+    color: #34AADC;
     margin-left: -2vh;
 }
 

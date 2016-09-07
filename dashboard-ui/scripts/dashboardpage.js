@@ -4,7 +4,7 @@
 
         var html = '<p style="padding:0 .5em;display:flex;align-items:center;">';
 
-        html += '<iron-icon icon="check" style="margin-right:.5em;background-color: #52B54B;border-radius:1em;color: #fff;"></iron-icon>';
+        html += '<iron-icon icon="check" style="margin-right:.5em;background-color: #34AADC;border-radius:1em;color: #fff;"></iron-icon>';
 
         html += Globalize.translate('HealthMonitorNoAlerts') + '</p>';
 
@@ -1049,7 +1049,7 @@
 
             html += '<div class="listItem listItem-noborder">';
 
-            var color = entry.Severity == 'Error' || entry.Severity == 'Fatal' || entry.Severity == 'Warn' ? '#cc0000' : '#52B54B';
+            var color = entry.Severity == 'Error' || entry.Severity == 'Fatal' || entry.Severity == 'Warn' ? '#cc0000' : '#34AADC';
 
             if (entry.UserId && entry.UserPrimaryImageTag) {
 
@@ -1351,7 +1351,7 @@
 
                 if (!pluginSecurityInfo.IsMBSupporter && AppInfo.enableSupporterMembership) {
 
-                    var html = '<div class="supporterPromotionContainer"><div class="supporterPromotion"><a class="clearLink" href="http://emby.media/premiere" target="_blank"><button is="emby-button" type="button" class="raised block" style="text-transform:none;background-color:#52B54B;color:#fff;"><div>' + Globalize.translate('HeaderSupportTheTeam') + '</div><div style="font-weight:normal;margin-top:5px;">' + Globalize.translate('TextEnjoyBonusFeatures') + '</div></button></a></div></div>';
+                    var html = '<div class="supporterPromotionContainer"><div class="supporterPromotion"><a class="clearLink" href="http://emby.media/premiere" target="_blank"><button is="emby-button" type="button" class="raised block" style="text-transform:none;background-color:#34AADC;color:#fff;"><div>' + Globalize.translate('HeaderSupportTheTeam') + '</div><div style="font-weight:normal;margin-top:5px;">' + Globalize.translate('TextEnjoyBonusFeatures') + '</div></button></a></div></div>';
 
                     page.querySelector('.content-primary').insertAdjacentHTML('afterbegin', html);
                 }

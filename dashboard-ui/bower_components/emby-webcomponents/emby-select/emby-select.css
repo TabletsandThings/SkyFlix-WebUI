@@ -50,7 +50,7 @@
 }
 
 .selectLabelFocused {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 .emby-select-selectionbar {
@@ -65,6 +65,6 @@
 }
 
 .emby-select:focus + .emby-select-selectionbar {
-    background-color: #52B54B;
+    background-color: #34AADC;
     transform: none;
 }

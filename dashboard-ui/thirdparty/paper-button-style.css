@@ -17,11 +17,11 @@ button.emby-button.menuButton {
 
 
 button.emby-button.submit {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 button.emby-button.raised.submit, button.emby-button.raised:not(.subdued):not(.cancel) {
-    background: #52B54B;
+    background: #34AADC;
     color: #fff;
 }
 
@@ -44,11 +44,11 @@ button.emby-button.raised.secondary {
 }
 
 button.emby-button.accent {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 button.emby-button.raised.accent {
-    background: #52B54B;
+    background: #34AADC;
     color: #fff;
 }
 
@@ -139,7 +139,7 @@ div.dialogHeader {
 }
 
 .ui-body-a div.formDialogHeader {
-    background-color: #52B54B;
+    background-color: #34AADC;
     color: #fff;
 }
 

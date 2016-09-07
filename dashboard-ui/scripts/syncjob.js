@@ -83,7 +83,7 @@
         html += '</div>';
 
         html += '<div class="secondary" style="padding-top:5px;">';
-        html += '<div style="background:#e0e0e0;height:4px;"><div style="background:#52B54B;width:' + (jobItem.Progress || 0) + '%;height:100%;"></div></div>';
+        html += '<div style="background:#e0e0e0;height:4px;"><div style="background:#34AADC;width:' + (jobItem.Progress || 0) + '%;height:100%;"></div></div>';
         html += '</div>';
 
         html += '</div>';

@@ -17,7 +17,7 @@
 }
 
 .mediaButton.active {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 @media (min-width: 500px) {
@@ -128,7 +128,7 @@
 }
 
 .repeatActive {
-    color: #52B54B;
+    color: #34AADC;
 }
 
 @media (min-width: 500px) {
