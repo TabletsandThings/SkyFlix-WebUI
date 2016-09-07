@@ -245,7 +245,7 @@
             LoginPage.showVisualForm(view);
         });
 
-      /*  view.querySelector('.btnManual').addEventListener('click', function () {
+        /* view.querySelector('.btnManual').addEventListener('click', function () {
             view.querySelector('#txtManualName').value = '';
             showManualForm(view, true);
         }); */
