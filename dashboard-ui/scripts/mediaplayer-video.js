@@ -735,7 +735,7 @@
             // Embedding onclicks due to issues not firing in cordova safari
             html += '<button is="paper-icon-button-light" class="mediaButton videoAudioButton autoSize" onclick="MediaPlayer.showAudioTracksFlyout();"><i class="md-icon">audiotrack</i></button>';
             html += '<button is="paper-icon-button-light" class="mediaButton videoSubtitleButton autoSize" onclick="MediaPlayer.showSubtitleMenu();"><i class="md-icon">closed_caption</i></button>';
-            html += '<button is="paper-icon-button-light" class="mediaButton videoQualityButton autoSize" onclick="MediaPlayer.showQualityFlyout();"><i class="md-icon">settings</i></button>';
+            //html += '<button is="paper-icon-button-light" class="mediaButton videoQualityButton autoSize" onclick="MediaPlayer.showQualityFlyout();"><i class="md-icon">settings</i></button>';
             html += '<button is="paper-icon-button-light" class="mediaButton autoSize" onclick="MediaPlayer.stop();"><i class="md-icon">close</i></button>';
 
             html += '</div>'; // videoAdvancedControls
