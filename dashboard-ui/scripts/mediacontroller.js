@@ -461,7 +461,7 @@
                 fn();
                 return;
             }
-
+/* Enable Direct Stream only
             requirejs(["registrationservices"], function (registrationServices) {
 
                 self.playbackTimeLimitMs = null;
@@ -472,7 +472,7 @@
                     startAutoStopTimer();
                     fn();
                 });
-            });
+            }); */
         }
 
         var autoStopTimeout;
