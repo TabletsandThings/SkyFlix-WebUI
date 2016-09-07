@@ -1111,7 +1111,7 @@
             document.querySelector('#video-pauseButton').classList.remove('hide');
 
             document.querySelector('.videoTrackControl').classList.add('hide');
-            document.querySelector('.videoQualityButton').classList.remove('hide');
+            //document.querySelector('.videoQualityButton').classList.remove('hide');
 
             if (mediaStreams.filter(function (s) {
                 return s.Type == "Audio";
