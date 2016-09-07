@@ -572,7 +572,7 @@ var Dashboard = {
             name: Globalize.translate('TabAbout'),
             href: "about.html",
             icon: 'info',
-            color: '#679C34',
+            color: '#34AADC',
             divider: true,
             pageIds: ['aboutPage']
         }];
