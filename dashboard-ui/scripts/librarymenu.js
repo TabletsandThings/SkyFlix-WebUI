@@ -33,9 +33,9 @@
 
         html += '<button is="paper-icon-button-light" class="headerButton headerButtonRight headerUserButton autoSize"><i class="md-icon">person</i></button>';
 
-        if (!browserInfo.mobile && !Dashboard.isConnectMode()) {
+      /* Hide Settings button in top bar  if (!browserInfo.mobile && !Dashboard.isConnectMode()) {
             html += '<button is="paper-icon-button-light" class="headerButton headerButtonRight dashboardEntryHeaderButton autoSize" onclick="return LibraryMenu.onSettingsClicked(event);"><i class="md-icon">settings</i></button>';
-        }
+        } */
 
         html += '</div>';
         html += '</div>';
