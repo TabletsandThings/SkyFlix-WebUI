@@ -100,7 +100,7 @@
 
             icon = item.icon || icon;
 
-            html += '<a' + onclick + ' data-id="' + item.Id + '" class="' + cssClass + '" href="' + href + '" style="min-width:12.5%;">';
+            html += '<a' + onclick + ' data-id="' + item.Id + '" class="' + cssClass + '" href="' + href + '" style="min-width:33%;">';
             html += '<div class="cardBox ' + cardBuilder.getDefaultColorClass(item.Name) + '" style="margin:4px;">';
 
             html += "<div class='cardText'>";
