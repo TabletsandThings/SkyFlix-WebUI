@@ -161,7 +161,7 @@
             view.querySelector('.btnSave').classList.remove('hide');
         }
 
-        view.addEventListener('viewshow', function () {
+        /* view.addEventListener('viewshow', function () {
 
             if (AppInfo.supportsExternalPlayers) {
                 view.querySelector('.fldExternalPlayer').classList.remove('hide');
@@ -178,7 +178,7 @@
             }
 
             loadPage(view);
-        });
+        }); */
 
         view.addEventListener('viewbeforehide', function () {
             var page = this;
