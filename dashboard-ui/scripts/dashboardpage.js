@@ -1278,8 +1278,8 @@
                         $('.tourHeader', elem).html(Globalize.translate('HeaderWelcomeToProjectServerDashboard'));
                         $('.tourButtonText', elem).html(Globalize.translate('ButtonTakeTheTour'));
                     }
-                } */
-            });
+                }
+            });*/
         }
 
         function takeTour(page, userId) {
